@@ -26,7 +26,7 @@ function App() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-500 to-indigo-600 flex items-center justify-center px-4">
       <div className="bg-white rounded-2xl shadow-2xl p-8 max-w-md w-full">
-        <h2 className="text-2xl font-bold text-center text-gray-800 mb-6">💬 Contact Us</h2>
+        <h2 className="text-2xl font-bold text-center text-gray-800 mb-6">💬 Contact Us !</h2>
         <form onSubmit={handleSubmit} className="space-y-4">
           <input
             className="w-full px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-purple-500"
