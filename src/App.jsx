@@ -15,7 +15,7 @@ function App() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post('https://node-middleware-backend.onrender.com/submit', formData, {withCredentials: true});
+      const res = await axios.post('https://node-middleware-backend.onrender.com/api/submit', formData, {withCredentials: true});
       // setResponseData(res.data.data);
       console.log('Response from server:', res.data);
     } catch (err) {
